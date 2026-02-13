@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hw3.css">
+  <a href="index.html">Back to Intro Page</a>
+</head>
+<body>
+  <h2>User Information Form</h2>
+  <h4>Please fill out the info below</h4>
+
+  <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+
+      <input type="radio" id="red" name="color" value="red">
+      <label for="red">Red</label><br>
+      <input type="radio" id="blue" name="color" value="blue">
+      <label for="blue">Blue</label><br>
+      <input type="radio" id="green" name="color" value="green">
+      <label for="green">Green</label><br>
+
+      <label for="foods">Favorite Foods (select mulitple):</label><br>
+      <select id="foods" name="foods" multiple size="4">
+        <option value="pizza">Pizza</option>
+        <option value="tacos">Tacos</option>
+        <option value="pasta">Pasta</option>
+        <option value="sushi">Pizza</option>
+      </select><br><br>
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+
+      <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
